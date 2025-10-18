@@ -7,7 +7,9 @@
 
 **A sequencer &amp; controlling system for visual livecoding with Hydra in the text editor Pulsar.**
 
-**More documentation to come in the following months.** 
+**More documentation to come soon in the future.** 
+
+This project is meant to be used in conjunction with Live 4 Bubbles.
 
 
 ## Installation
@@ -29,6 +31,8 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 </a>
 
 ## Acknowledgements
+
+The code of this project was built partly with the help of AI, particularly Claude Code, although I tried others and even open source or free like Ollama. AI was not used in the creation of the controlling system.
 
 
 ## Licence
