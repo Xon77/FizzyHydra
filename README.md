@@ -6,15 +6,8 @@
 ## Overview
 
 **A sequencer &amp; controlling system for visual livecoding with Hydra in the text editor Pulsar.**
+
 **More documentation to come in the following months.** 
-
-This project, briefly introduced during Composite Montréal in June 2025 through a 5-minute pitch, will be presented in full in September 2025 as part of a three-hour public experimental workshop at [Eastern Bloc](https://www.easternbloc.ca). The event will include a short performance and a participatory exploration session with the audience. I warmly thank Eastern Bloc and [CALQ](https://www.calq.gouv.qc.ca/en/) for their support in making this presentation possible.
-
-<p align="center">
-<b>The performance tool (SuperCollider - Tidal Cycles - Hydra)</b>
-<!--<a href="#> <b>The performance tool (SuperCollider - Tidal Cycles - Hydra)</b> </a> <br> -->
-<img src="Images/Live coding Screen 1 - Tidal Cycles SuperCollider Hydra.jpg" />
-</p>
 
 
 ## Installation
