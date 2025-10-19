@@ -15,9 +15,9 @@
 
 ## Overview
 
-**A sequencer &amp; controlling system for visual livecoding with Hydra in the text editor Pulsar.**
+**A sequencer &amp; controlling system for visual livecoding with [Hydra](https://hydra.ojack.xyz/) in the text editor [Pulsar](https://pulsar-edit.dev/).**
 
-FizzyHydra is a live coding visual performance system built on top of Hydra, designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
+FizzyHydra is a live coding visual performance system built on top of [Hydra](https://hydra.ojack.xyz/), designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
 
 This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/your-link-here), but can be used independently as a standalone visual sequencing system.
 
@@ -463,7 +463,7 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 
 ## Acknowledgements
 
-The code of this project was built partly with the help of AI, particularly Claude Code, although I tried others and even open source or free like Ollama. AI was not used in the creation of the controlling system.
+The code of this project was built partly with the help of AI, particularly [Claude Code](https://claude.ai/download), although I tried others and even open source or free like Ollama. AI was not used in the creation of the controlling system.
 
 ---
 
