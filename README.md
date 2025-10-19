@@ -115,7 +115,7 @@ This system is designed for:
 
 **1. Download FizzyHydra**
 
-Clone or download the FizzyHydra repository to your local machine and place it in a convenient location (e.g., `~/Desktop/Live_Coding/Hydra/FizzyHydra/`)
+Clone or download the Fizzy Hydra repository to your local machine and place it in a convenient location (e.g., `~/Desktop/Live_Coding/Hydra/FizzyHydra/`)
 
 **2. Download Required Extensions** (Licensed under CC BY-NC-SA 4.0)
 
@@ -354,7 +354,7 @@ oscMode(8);  // Random
 oscMode(9);  // By tracks (default mode)
 ```
 
-**Named shortcuts:**
+Named shortcuts:
 
 ```javascript
 oscOff();       // OFF
@@ -378,11 +378,6 @@ mode.sequential();  // Linear progression 0->1->2->3
 mode.shuffle();     // Randomized order without repetition
 mode.brownian();    // Smooth random walk (gradual changes)
 mode.walk();        // Step-by-step random walk (±1 index)
-```
-
-**Advanced Modes:**
-
-```javascript
 mode.markov();      // Markov chains (learning patterns)
 mode.zones();       // Probability zones
 mode.attractor();   // Gravitational attractors
