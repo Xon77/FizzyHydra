@@ -11,6 +11,8 @@
 
 </div>
 
+---
+
 ## Overview
 
 **A sequencer &amp; controlling system for visual livecoding with Hydra in the text editor Pulsar.**
@@ -87,6 +89,7 @@ This system is designed for:
 - Supports both immediate and scheduled event triggering
 - Includes fallback mechanisms for stable performances
 
+---
 
 ## Installation
 
@@ -257,6 +260,7 @@ The loader will automatically load all necessary files in the correct order:
 3. Core system (FHydraMainCode.js, FHydraSequencer.js)
 4. Utilities (Memory, Emergency, Performance diagnostics)
 
+---
 
 ## Setup
 
@@ -441,6 +445,7 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 
 **Note**: By default, performance monitoring is OFF to save resources. Profiles only work when monitoring is active.
 
+---
 
 ## Contribute
 
@@ -454,10 +459,13 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
+---
+
 ## Acknowledgements
 
 The code of this project was built partly with the help of AI, particularly Claude Code, although I tried others and even open source or free like Ollama. AI was not used in the creation of the controlling system.
 
+---
 
 ## Licence
 
