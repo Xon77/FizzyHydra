@@ -23,7 +23,7 @@ This project was originally designed to be used in conjunction with [Live 4 Bubb
 
 ---
 
-### 🏗️ Core Architecture
+### 🏛️ Core Architecture
 
 The system consists of three main components:
 
