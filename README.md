@@ -15,11 +15,11 @@
 
 ## Overview
 
-**A sequencer &amp; controlling system for visual livecoding with <a href="https://hydra.ojack.xyz/" target="_blank">Hydra</a> in the text editor <a href="https://pulsar-edit.dev/" target="_blank">Pulsar</a>.**
+**A sequencer &amp; controlling system for visual livecoding with [Hydra](https://hydra.ojack.xyz/) in the text editor [Pulsar](https://pulsar-edit.dev/).**
 
-FizzyHydra is a live coding visual performance system built on top of <a href="https://hydra.ojack.xyz/" target="_blank">Hydra</a>, designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
+FizzyHydra is a live coding visual performance system built on top of [Hydra](https://hydra.ojack.xyz/), designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
 
-This project was originally designed to be used in conjunction with <a href="https://github.com/Xon77/Live4Bubbles" target="_blank">Live 4 Bubbles</a>, but can be used independently as a standalone visual sequencing system.
+This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/Xon77/Live4Bubbles), but can be used independently as a standalone visual sequencing system.
 
 ### Core Architecture
 
@@ -95,9 +95,9 @@ This system is designed for:
 
 ### Prerequisites
 
-- **<a href="https://pulsar-edit.dev/" target="_blank">Pulsar Text Editor</a>**
-- **<a href="https://web.pulsar-edit.dev/packages/atom-hydra" target="_blank">atom-hydra package</a>** installed and configured
-- **<a href="https://tidalcycles.org/" target="_blank">TidalCycles</a>** (optional, for OSC integration)
+- **[Pulsar Text Editor](https://pulsar-edit.dev/)**
+- **[atom-hydra package](https://web.pulsar-edit.dev/packages/atom-hydra)** installed and configured
+- **[TidalCycles](https://tidalcycles.org/)** (optional, for OSC integration)
 
 ### Download Files
 
@@ -451,11 +451,11 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 
 If you would like to contribute, please get in touch with me in order to organise further development.
 
-You can also support thanks to donations via <a href="https://ko-fi.com/live4life" target="_blank"><strong>Ko-fi</strong></a> or get specific support and courses via <a href="https://www.patreon.com/live4life" target="_blank"><strong>Patreon</strong></a>. :grin:
+You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4life) or get specific support and courses via [**Patreon**](https://www.patreon.com/live4life). :grin:
 
-<a href="https://ko-fi.com/Live4Life" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Live4Life)
 
-<a href="https://www.patreon.com/Live4Life" target="_blank">
+<a href="https://www.patreon.com/Live4Life">
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
@@ -463,7 +463,7 @@ You can also support thanks to donations via <a href="https://ko-fi.com/live4lif
 
 ## Acknowledgements
 
-The code of this project was built partly with the help of AI, particularly <a href="https://github.com/anthropics/claude-code" target="_blank">Claude Code</a>, although I tried others like <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> or even open source or free ones like <a href="https://ollama.com/" target="_blank">Ollama</a>. AI was not used in the creation of the controlling system.
+The code of this project was built partly with the help of AI, particularly [Claude Code](https://github.com/anthropics/claude-code), although I tried others like [ChatGPT](https://chatgpt.com/) or even open source or free ones like [Ollama](https://ollama.com/). AI was not used in the creation of the controlling system.
 
 ---
 
@@ -477,8 +477,8 @@ The code of this project was built partly with the help of AI, particularly <a h
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. 
 
-**I wish it would be used in the spirit of <a href="https://en.wikipedia.org/wiki/Free_party" target="_blank"><em>Free Party</em></a>**. Unfortunately, *Free* does not mean free in this commercial world, but invites to contribute to the costs and labor according to one's ability to give. I do not want this tool to be used, by any means, for personal profit.
+**I wish it would be used in the spirit of [*Free Party*](https://en.wikipedia.org/wiki/Free_party)**. Unfortunately, *Free* does not mean free in this commercial world, but invites to contribute to the costs and labor according to one's ability to give. I do not want this tool to be used, by any means, for personal profit.
 
-:warning: **Moreover, I do not want that this tool to be used by or in <a href="https://sat.qc.ca" target="_blank">Société des Arts Technologiques</a>** without my consent, since this organisation never helped me in diffusing my spatial creations in their dome despite my previous proposals. (This restriction will be withdrawn only if I have the opportunity to play improvisations in their dome with an appropriate allowance. However, it will surely never happen, since I am no longer interested to send them applications and I am looking for more open spaces. But, Life is unpredictable;)
+:warning: **Moreover, I do not want that this tool to be used by or in [Société des Arts Technologiques](https://sat.qc.ca)** without my consent, since this organisation never helped me in diffusing my spatial creations in their dome despite my previous proposals. (This restriction will be withdrawn only if I have the opportunity to play improvisations in their dome with an appropriate allowance. However, it will surely never happen, since I am no longer interested to send them applications and I am looking for more open spaces. But, Life is unpredictable;)
 
 See the [License](/LICENCE.md) for more details.
