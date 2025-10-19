@@ -21,7 +21,9 @@ FizzyHydra is a live coding visual performance system built on top of [Hydra](ht
 
 This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/Xon77/Live4Bubbles) (Extensions based on [Tidal Cycles](https://tidalcycles.org/) and [SuperCollider](https://supercollider.github.io/)), but can be used independently as a standalone visual sequencing system.
 
-### Core Architecture
+---
+
+### 🏗️ Core Architecture
 
 The system consists of three main components:
 
@@ -43,7 +45,9 @@ The system operates in multiple modes:
 - **Automatic Mode**: Internal sequencers with configurable timing
 - **Hybrid Mode**: Combination of OSC events and automatic sequencing
 
-### Advanced Algorithms
+---
+
+### 🧮 Advanced Algorithms
 
 Beyond sequential, shuffled, ping-pong, or custom sequence playback, brownian or random walks, the system includes **8 sequencing algorithms**:
 
@@ -56,7 +60,9 @@ Beyond sequential, shuffled, ping-pong, or custom sequence playback, brownian or
 - **Fibonacci Sequences**: Natural mathematical progressions
 - **Lorenz Chaos**: Deterministic chaos for complex but structured patterns
 
-### Key Features
+---
+
+### ⭐ Key Features
 
 **Flexible Routing**
 - Route any visual source to any output
@@ -71,7 +77,9 @@ Quick Presets: One-command setups for different performance styles
 - **Chaos**: Unpredictable but mathematically structured
 - **Learning**: Adapts to performance history over time
 
-### Use Cases
+---
+
+### 🎯 Use Cases
 
 This system is designed for:
 - Live audiovisual performances with TidalCycles
@@ -80,7 +88,9 @@ This system is designed for:
 - Experimental visual compositions using mathematical algorithms
 - Multi-screen installations with independent output control
 
-### Technical Capabilities
+---
+
+### ⚙️ Technical Capabilities
 
 - Handles visual routing between multiple sources and outputs
 - Processes OSC messages with precise timing synchronization
