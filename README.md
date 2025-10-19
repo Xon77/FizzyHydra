@@ -95,9 +95,9 @@ This system is designed for:
 
 ### Prerequisites
 
-- **Pulsar Text Editor**
-- **atom-hydra package** installed and configured
-- **TidalCycles** (optional, for OSC integration)
+- **[Pulsar Text Editor](https://pulsar-edit.dev/)**
+- **[atom-hydra package](https://web.pulsar-edit.dev/packages/atom-hydra)** installed and configured
+- **[TidalCycles](https://tidalcycles.org/)** (optional, for OSC integration)
 
 ### Download Files
 
