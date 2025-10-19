@@ -445,6 +445,17 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 
 **Note**: By default, performance monitoring is OFF to save resources. Profiles only work when monitoring is active.
 
+### Advanced Control Files
+
+For more details and advanced configuration options, refer to the main control files:
+
+- **[FHydraControlMain.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js)** - Main control functions and system management
+- **[FHydraControlPresets.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlPresets.js)** - Preset configurations for different performance modes
+- **[FHydraControlSequencer.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlSequencer.js)** - Sequencer mode controls and algorithms
+- **[FHydraHelp.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraHelp.js)** - Complete help system and documentation
+
+These files contain the core control logic and provide additional configuration options beyond what's covered in this README.
+
 ---
 
 ## Contribute
