@@ -262,9 +262,11 @@ The loader will automatically load all necessary files in the correct order:
 
 ---
 
-## Main Control Files
+## Setup
 
-**Important**: The first file you need to open is **[FHydraControlMain.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js)** as it contains the necessary `loadScript()` command to initialize FizzyHydra.
+### Main Control Files
+
+**Important**: The first file you need to open is **[FHydraControlMain.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js)** as it contains the necessary [`loadScript()` command](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js#L10) to initialize FizzyHydra.
 
 For more details and advanced configuration options, refer to these main control files:
 
@@ -274,10 +276,6 @@ For more details and advanced configuration options, refer to these main control
 - **[FHydraHelp.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraHelp.js)** - Complete help system and documentation
 
 These files contain the core control logic and provide additional configuration options beyond what's covered in this README.
-
----
-
-## Setup
 
 ### Quick Start Commands
 
