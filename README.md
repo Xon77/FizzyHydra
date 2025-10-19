@@ -150,7 +150,7 @@ Create a `Hydra-Lib` folder inside your FizzyHydra directory and download the fo
   - Place in: `FizzyHydra/Hydra-Lib/Hydra-FCS/HydraFCS.js`
 
 <details>
-<summary><strong>📁 Expected Directory Structure</strong> (click to expand)</summary>
+<summary><strong>📁 Expected Directory Structure</strong> ⬅️ <em><strong>CLICK TO EXPAND</strong></em></summary>
 
 ```
 FizzyHydra/
