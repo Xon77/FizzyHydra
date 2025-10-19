@@ -5,11 +5,11 @@
   <img src="Gifs/FizzyHydra-demoS.gif" alt="FizzyHydra Demo 2" width="410" style="display: inline-block; margin: 0 15px;">
 </p>
 
-<p align="center">
+<div align="center">
 
 | [**Overview**](#overview) | [**Installation**](#installation) | [**Setup**](#setup) | [**References**](#references) | [**Contribute**](#contribute) | [**Acknowledgements**](#acknowledgements) | [**Licence**](#licence) |
 
-</p>
+</div>
 
 ## Overview
 
