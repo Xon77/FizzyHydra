@@ -12,11 +12,8 @@
 </div>
 
 ---
----
 
 # 📖 Overview
-
----
 
 **A sequencer &amp; controlling system for visual livecoding with [Hydra](https://hydra.ojack.xyz/) in the text editor [Pulsar](https://pulsar-edit.dev/).**
 
@@ -103,11 +100,8 @@ This system is designed for:
 - Includes fallback mechanisms for stable performances
 
 ---
----
 
 # 💿 Installation
-
----
 
 ### 📋 Prerequisites
 
@@ -286,11 +280,8 @@ The loader will automatically load all necessary files in the correct order:
 4. Utilities (Memory, Emergency, Performance diagnostics)
 
 ---
----
 
 # ⚙️ Setup
-
----
 
 ### 📂 Main Control Files
 
@@ -498,11 +489,8 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 **Note**: By default, performance monitoring is OFF to save resources. Profiles only work when monitoring is active.
 
 ---
----
 
 # 🤝 Contribute
-
----
 
 If you would like to contribute, please get in touch with me in order to organise further development.
 
@@ -515,20 +503,14 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 </a>
 
 ---
----
 
 # 🙏 Acknowledgements
-
----
 
 The code of this project was built partly with the help of AI, particularly [Claude Code](https://github.com/anthropics/claude-code), although I tried others like [ChatGPT](https://chatgpt.com/) or even open source or free ones like [Ollama](https://ollama.com/). AI was not used in the creation of the controlling system.
 
 ---
----
 
 # 📄 Licence
-
----
 
 © 2025 - End of the world ∞ Christophe Lengelé
 
