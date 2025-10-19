@@ -19,7 +19,7 @@
 
 FizzyHydra is a live coding visual performance system built on top of [Hydra](https://hydra.ojack.xyz/), designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
 
-This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/your-link-here), but can be used independently as a standalone visual sequencing system.
+This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/Xon77/Live4Bubbles), but can be used independently as a standalone visual sequencing system.
 
 ### Core Architecture
 
