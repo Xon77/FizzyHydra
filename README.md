@@ -42,7 +42,7 @@ The system operates in multiple modes:
 
 ### Advanced Algorithms
 
-Beyond sequential, shuffled, ping-pong, or custom sequence playback, brownian or random walks, the system includes **8 sophisticated sequencing algorithms**:
+Beyond sequential, shuffled, ping-pong, or custom sequence playback, brownian or random walks, the system includes **8 sequencing algorithms**:
 
 - **Markov Chains**: Learns from selection history to create intelligent patterns
 - **Probability Zones**: Weighted regions favor certain visual elements
