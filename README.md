@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
 ---
 
@@ -103,7 +103,7 @@ This system is designed for:
 
 ---
 
-## 💿 Installation
+# 💿 Installation
 
 ---
 
@@ -285,7 +285,7 @@ The loader will automatically load all necessary files in the correct order:
 
 ---
 
-## ⚙️ Setup
+# ⚙️ Setup
 
 ---
 
@@ -496,7 +496,7 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 
 ---
 
-## 🤝 Contribute
+# 🤝 Contribute
 
 ---
 
@@ -512,7 +512,7 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 
 ---
 
-## 🙏 Acknowledgements
+# 🙏 Acknowledgements
 
 ---
 
@@ -520,7 +520,7 @@ The code of this project was built partly with the help of AI, particularly [Cla
 
 ---
 
-## 📄 Licence
+# 📄 Licence
 
 ---
 
