@@ -1,7 +1,7 @@
 # Welcome to ***FizzyHydra*** ! &nbsp;&nbsp; <span class="badge-licence"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licence"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png" alt="Licence link" /></a></span> &nbsp;&nbsp; <span class="badge-buymeacoffee"><a href="https://ko-fi.com/Live4Life" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span> &nbsp;&nbsp; <span class="badge-patreon"><a href="https://patreon.com/Live4Life" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 
 
-| [**Overview**](#overview) | [**Usage**](#usage) | [**Platform**](#platform-support------) | [**Installation**](#installation) | [**Setup**](#setup) | [**References**](#references) | [**Contribute**](#contribute) | [**Acknowledgements**](#acknowledgements) | [**Licence**](#licence) |
+| [**Overview**](#overview) | [**Installation**](#installation) | [**Setup**](#setup) | [**References**](#references) | [**Contribute**](#contribute) | [**Acknowledgements**](#acknowledgements) | [**Licence**](#licence) |
 
 ## Overview
 
@@ -78,154 +78,6 @@ This system is designed for:
 - Provides detailed diagnostics and performance statistics
 - Supports both immediate and scheduled event triggering
 - Includes fallback mechanisms for stable performances
-
-
-## Usage
-
-### Quick Start
-
-Once installed, load FizzyHydra with a simple command:
-
-```javascript
-loadScript('/path/to/FizzyHydra/FizzyX/FHydraLoader.js');
-```
-
-**Basic Testing:**
-
-```javascript
-STATUS();                    // Quick system status overview
-systemStatus();              // Detailed system status report
-quickTest();                 // Run basic system functionality test
-visual.rainbow();            // Display rainbow test pattern
-```
-
-**Basic Modes:**
-
-```javascript
-presets.osc();               // OSC-driven visual sequencing mode
-presets.glob();              // Global automated sequencing mode
-presets.hybrid();            // Combination of OSC and automated modes
-```
-
-**Advanced Modes:**
-
-```javascript
-presets.markov();            // Markov chain learning-based sequencing
-presets.chaos();             // Lorenz chaos-driven sequencing
-presets.euclidean();         // Euclidean rhythm-based sequencing
-presets.zones();             // Probability zone-based sequencing
-presets.fibonacci();         // Fibonacci sequence-based sequencing
-```
-
-**Live Performance:**
-
-```javascript
-live.setup1();               // Quick performance setup 1
-live.markov();               // Live Markov chain performance mode
-live.chaos();                // Live chaos performance mode
-live.panic();                // Emergency stop with black screen
-```
-
-### OSC Event Control (0-23 Modes)
-
-Control how TidalCycles events trigger visuals:
-
-```javascript
-oscMode(0);  // OSC Event OFF
-oscMode(1);  // Input only
-oscMode(2);  // InputRender only
-oscMode(3);  // Render only
-oscMode(7);  // All together
-oscMode(8);  // Random
-oscMode(9);  // By tracks (default mode)
-```
-
-**Named shortcuts:**
-
-```javascript
-oscOff();       // OFF
-oscInput();     // Input only
-oscMod();       // InputRender only
-oscRender();    // Render only
-oscAll();       // All together
-oscRandom();    // Random
-oscTracks();    // By tracks
-```
-
-### Sequencer Modes
-
-**Classic Modes:**
-
-```javascript
-mode.random();      // Pure randomness (default)
-mode.sequential();  // Linear progression 0->1->2->3
-mode.shuffle();     // Randomized order without repetition
-mode.brownian();    // Smooth random walk (gradual changes)
-mode.walk();        // Step-by-step random walk (±1 index)
-```
-
-**Advanced Modes:**
-
-```javascript
-mode.markov();      // Markov chains (learning patterns)
-mode.zones();       // Probability zones
-mode.attractor();   // Gravitational attractors
-mode.exclusion();   // Intelligent avoidance
-mode.cycles();      // Cyclical patterns
-mode.euclidean();   // Euclidean rhythms
-mode.fibonacci();   // Fibonacci sequence
-mode.lorenz();      // Lorenz chaos
-```
-
-### Output Control
-
-```javascript
-output.random();         // Random outputs
-output.sequential();     // Sequential outputs
-output.all();           // [0,1,2,3] all outputs
-output.main();          // [0] main only
-output.stereo();        // [0,1] stereo
-output.bounce();        // [0,1,2,3] pingpong
-```
-
-### Event Skip Control
-
-Reduce event frequency:
-
-```javascript
-setEventSkip(1);    // Normal speed
-setEventSkip(2);    // Half speed
-setEventSkip(5);    // 1 event out of 5
-setEventSkip(10);   // 1 event out of 10
-
-// Convenient shortcuts
-skip.half();        // 1 event out of 2
-skip.third();       // 1 event out of 3
-skip.slow();        // 1 event out of 10
-skip.verySlow();    // 1 event out of 20
-skip.ultraSlow();   // 1 event out of 100
-```
-
-### Help & Diagnostics
-
-```javascript
-help();                      // Display complete help system
-STATUS();                    // Quick system status overview
-systemStatus();              // Detailed system status report
-memoryDiagnostic();          // Complete memory diagnostic report
-performanceMonitor.report(); // Real-time performance statistics
-```
-
-### Emergency Controls
-
-```javascript
-PANIC();         // Total stop + black screen + cleanup
-STOP();          // Stops all timers/loops
-RESTART();       // Cleanup + reloads page
-CLEANUP();       // Memory cleanup
-emergencyStop(); // Emergency total stop
-resumeAll();     // Resume everything
-```
 
 
 ## Installation
@@ -400,38 +252,165 @@ The loader will automatically load all necessary files in the correct order:
 
 ## Setup
 
-### Initial Verification
+### Quick Start Commands
 
-After loading, verify the system is working:
+Once installed and configured, use these commands:
+
+**Basic Testing:**
 
 ```javascript
-STATUS();        // Check system status
-systemStatus();  // Detailed status report
-quickTest();     // Run basic functionality test
+STATUS();                    // Quick system status overview
+systemStatus();              // Detailed system status report
+quickTest();                 // Run basic system functionality test
+visual.rainbow();            // Display rainbow test pattern
 ```
 
-### Basic Configuration
-
-**1. Set OSC Mode** (if using TidalCycles):
+**Basic Modes:**
 
 ```javascript
-oscMode(9);  // By tracks (default - recommended)
+presets.osc();               // OSC-driven visual sequencing mode
+presets.glob();              // Global automated sequencing mode
+presets.hybrid();            // Combination of OSC and automated modes
 ```
 
-**2. Set Sequencer Mode**:
+**Advanced Modes:**
 
 ```javascript
-mode.random();  // Default mode (pure randomness)
-// or
-mode.shuffle(); // Balanced randomness without repetition
+presets.markov();            // Markov chain learning-based sequencing
+presets.chaos();             // Lorenz chaos-driven sequencing
+presets.euclidean();         // Euclidean rhythm-based sequencing
+presets.zones();             // Probability zone-based sequencing
+presets.fibonacci();         // Fibonacci sequence-based sequencing
 ```
 
-**3. Set Output Mode**:
+**Live Performance:**
 
 ```javascript
-output.stereo();  // Use outputs 0+1
-// or
-output.all();     // Use all 4 outputs
+live.setup1();               // Quick performance setup 1
+live.markov();               // Live Markov chain performance mode
+live.chaos();                // Live chaos performance mode
+live.panic();                // Emergency stop with black screen
+```
+
+### OSC Event Control (0-23 Modes)
+
+Control how TidalCycles events trigger visuals:
+
+```javascript
+oscMode(0);  // OSC Event OFF
+oscMode(1);  // Input only
+oscMode(2);  // InputRender only
+oscMode(3);  // Render only
+oscMode(7);  // All together
+oscMode(8);  // Random
+oscMode(9);  // By tracks (default mode)
+```
+
+**Named shortcuts:**
+
+```javascript
+oscOff();       // OFF
+oscInput();     // Input only
+oscMod();       // InputRender only
+oscRender();    // Render only
+oscAll();       // All together
+oscRandom();    // Random
+oscTracks();    // By tracks
+```
+
+### Sequencer Modes
+
+**Classic Modes:**
+
+```javascript
+mode.random();      // Pure randomness (default)
+mode.sequential();  // Linear progression 0->1->2->3
+mode.shuffle();     // Randomized order without repetition
+mode.brownian();    // Smooth random walk (gradual changes)
+mode.walk();        // Step-by-step random walk (±1 index)
+```
+
+**Advanced Modes:**
+
+```javascript
+mode.markov();      // Markov chains (learning patterns)
+mode.zones();       // Probability zones
+mode.attractor();   // Gravitational attractors
+mode.exclusion();   // Intelligent avoidance
+mode.cycles();      // Cyclical patterns
+mode.euclidean();   // Euclidean rhythms
+mode.fibonacci();   // Fibonacci sequence
+mode.lorenz();      // Lorenz chaos
+```
+
+### Output Control
+
+```javascript
+output.random();         // Random outputs
+output.sequential();     // Sequential outputs
+output.all();           // [0,1,2,3] all outputs
+output.main();          // [0] main only
+output.stereo();        // [0,1] stereo
+output.bounce();        // [0,1,2,3] pingpong
+```
+
+### Event Skip Control
+
+Reduce event frequency:
+
+```javascript
+setEventSkip(1);    // Normal speed
+setEventSkip(2);    // Half speed
+setEventSkip(5);    // 1 event out of 5
+setEventSkip(10);   // 1 event out of 10
+skip.show();       // Display current configuration
+
+// Convenient shortcuts
+skip.half();        // 1 event out of 2
+skip.third();       // 1 event out of 3
+skip.slow();        // 1 event out of 10
+skip.verySlow();    // 1 event out of 20
+skip.ultraSlow();   // 1 event out of 100
+```
+
+### Help & Diagnostics
+
+```javascript
+help();                      // Display complete help system
+STATUS();                    // Quick system status overview
+systemStatus();              // Detailed system status report
+memoryDiagnostic();          // Complete memory diagnostic report
+performanceMonitor.report(); // Real-time performance statistics
+```
+
+### Emergency Controls
+
+```javascript
+PANIC();         // Total stop + black screen + cleanup
+STOP();          // Stops all timers/loops
+RESTART();       // Cleanup + reloads page
+CLEANUP();       // Memory cleanup
+emergencyStop(); // Emergency total stop
+resumeAll();     // Resume everything
+```
+
+### Advanced Setup
+
+**Configure Advanced Algorithms**:
+
+```javascript
+// Probability zones
+presets.zones();
+advancedConfig.setZones('input', [
+  { start: 0, end: 0.5, weight: 3 }  // Focus on first half
+]);
+
+// Euclidean rhythms
+presets.euclidean();
+advancedConfig.setEuclidean('input', 8, 3);  // 3 pulses in 8 steps
+
+// Markov chains (learning)
+presets.markov();
 ```
 
 ### Performance Configuration
@@ -453,66 +432,6 @@ enableMetrics();  // Activate FPS protection & auto-reduction
 ```
 
 **Note**: By default, performance monitoring is OFF to save resources. Profiles only work when monitoring is active.
-
-### TidalCycles Integration (Optional)
-
-If using TidalCycles for OSC control:
-
-1. Ensure TidalCycles is sending OSC messages to **port 4444**
-2. Configure OSC mode in FizzyHydra:
-
-```javascript
-oscMode(9);  // By tracks (4 tracks spread on different actions)
-```
-
-3. Test the integration by sending events from TidalCycles
-
-### Advanced Setup
-
-**Configure Advanced Algorithms**:
-
-```javascript
-// Probability zones
-presets.zones();
-advancedConfig.setZones('input', [
-  { start: 0, end: 0.5, weight: 3 }  // Focus on first half
-]);
-
-// Euclidean rhythms
-presets.euclidean();
-advancedConfig.setEuclidean('input', 8, 3);  // 3 pulses in 8 steps
-
-// Markov chains (learning)
-presets.markov();
-```
-
-**Configure Event Skip** (control frequency):
-
-```javascript
-setEventSkip(2);   // Slower (1 event out of 2)
-skip.show();       // Display current configuration
-```
-
-### Recommended Starting Setup
-
-For a balanced first experience:
-
-```javascript
-// 1. Load system
-loadScript('/path/to/FizzyHydra/FizzyX/FHydraLoader.js');
-
-// 2. Wait for loading, then configure
-presets.osc();          // OSC ready + balanced settings
-mode.shuffle();         // Fair distribution
-output.stereo();        // Stereo output
-oscMode(9);             // By tracks
-
-// 3. Test
-STATUS();               // Check status
-visual.rainbow();       // Visual test
-
-// 4. Start performing!
-```
 
 
 ## Contribute
