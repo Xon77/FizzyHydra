@@ -370,8 +370,6 @@ oscTracks();    // By tracks
 
 ### 🔄 Sequencer Modes
 
-**Classic Modes:**
-
 ```javascript
 mode.random();      // Pure randomness (default)
 mode.sequential();  // Linear progression 0->1->2->3
@@ -451,7 +449,7 @@ resumeAll();     // Resume everything
 
 ### 🎨 Advanced Setup
 
-**Configure Advanced Algorithms**:
+Configure Advanced Algorithms:
 
 ```javascript
 // Probability zones
@@ -472,7 +470,7 @@ presets.markov();
 
 ### 🔧 Performance Configuration
 
-**Set Performance Profile** (optional):
+Set Performance Profile (optional):
 
 ```javascript
 // Choose based on your machine capabilities:
@@ -482,7 +480,7 @@ setPerformanceProfile('relaxed');   // 24 FPS, 750MB (moderate performance)
 setPerformanceProfile('lazy');      // 5 FPS, 500MB (battery saving)
 ```
 
-**Enable Performance Monitoring** (optional):
+Enable Performance Monitoring (optional):
 
 ```javascript
 enableMetrics();  // Activate FPS protection & auto-reduction
