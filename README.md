@@ -103,13 +103,15 @@ This system is designed for:
 
 ## Installation
 
-### Prerequisites
+### 📋 Prerequisites
 
 - **[Pulsar Text Editor](https://pulsar-edit.dev/)**
 - **[atom-hydra package](https://web.pulsar-edit.dev/packages/atom-hydra)** installed and configured
 - **[TidalCycles](https://tidalcycles.org/)** (optional, for OSC integration)
 
-### Download Files
+---
+
+### 📥 Download Files
 
 **1. Download FizzyHydra**
 
@@ -230,7 +232,9 @@ FizzyHydra/
 
 These can be enabled manually if needed by uncommenting the relevant lines in `FHydraLoader.js`.
 
-### Configure the Loader
+---
+
+### ⚙️ Configure the Loader
 
 Edit the file `FizzyX/FHydraLoader.js` to set your base path:
 
@@ -254,7 +258,9 @@ return '/Users/xon/Desktop/Live_Coding/Hydra/FizzyHydra/FizzyX';
 
 Replace with your actual path.
 
-### Load FizzyHydra
+---
+
+### 🚀 Load FizzyHydra
 
 In Pulsar/Atom with Hydra active, evaluate this line:
 
@@ -274,7 +280,7 @@ The loader will automatically load all necessary files in the correct order:
 
 ## Setup
 
-### Main Control Files
+### 📂 Main Control Files
 
 **Important**: The first file you need to open is **[FHydraControlMain.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js)** as it contains the necessary [`loadScript()` command](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js#L10) to initialize FizzyHydra.
 
@@ -287,7 +293,9 @@ For more details and advanced configuration options, refer to these main control
 
 These files contain the core control logic and provide additional configuration options beyond what's covered in this README.
 
-### Quick Start Commands
+---
+
+### ⚡ Quick Start Commands
 
 Once installed and configured, use these commands:
 
@@ -327,7 +335,9 @@ live.chaos();                // Live chaos performance mode
 live.panic();                // Emergency stop with black screen
 ```
 
-### OSC Event Control (0-23 Modes)
+---
+
+### 🎛️ OSC Event Control (0-23 Modes)
 
 Control how TidalCycles events trigger visuals:
 
@@ -353,7 +363,9 @@ oscRandom();    // Random
 oscTracks();    // By tracks
 ```
 
-### Sequencer Modes
+---
+
+### 🔄 Sequencer Modes
 
 **Classic Modes:**
 
@@ -378,7 +390,9 @@ mode.fibonacci();   // Fibonacci sequence
 mode.lorenz();      // Lorenz chaos
 ```
 
-### Output Control
+---
+
+### 🖥️ Output Control
 
 ```javascript
 output.random();         // Random outputs
@@ -389,7 +403,9 @@ output.stereo();        // [0,1] stereo
 output.bounce();        // [0,1,2,3] pingpong
 ```
 
-### Event Skip Control
+---
+
+### ⏩ Event Skip Control
 
 Reduce event frequency:
 
@@ -408,7 +424,9 @@ skip.verySlow();    // 1 event out of 20
 skip.ultraSlow();   // 1 event out of 100
 ```
 
-### Help & Diagnostics
+---
+
+### 📊 Help & Diagnostics
 
 ```javascript
 help();                      // Display complete help system
@@ -418,7 +436,9 @@ memoryDiagnostic();          // Complete memory diagnostic report
 performanceMonitor.report(); // Real-time performance statistics
 ```
 
-### Emergency Controls
+---
+
+### 🚨 Emergency Controls
 
 ```javascript
 PANIC();         // Total stop + black screen + cleanup
@@ -429,7 +449,9 @@ emergencyStop(); // Emergency total stop
 resumeAll();     // Resume everything
 ```
 
-### Advanced Setup
+---
+
+### 🎨 Advanced Setup
 
 **Configure Advanced Algorithms**:
 
@@ -448,7 +470,9 @@ advancedConfig.setEuclidean('input', 8, 3);  // 3 pulses in 8 steps
 presets.markov();
 ```
 
-### Performance Configuration
+---
+
+### 🔧 Performance Configuration
 
 **Set Performance Profile** (optional):
 
