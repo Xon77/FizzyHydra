@@ -1,8 +1,15 @@
 # Welcome to ***Fizzy Hydra*** ! &nbsp;&nbsp; <span class="badge-licence"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licence"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png" alt="Licence link" /></a></span> &nbsp;&nbsp; <span class="badge-buymeacoffee"><a href="https://ko-fi.com/Live4Life" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span> &nbsp;&nbsp; <span class="badge-patreon"><a href="https://patreon.com/Live4Life" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 
 <p align="center">
-  <img src="fizzyhydra-demo.gif" alt="FizzyHydra Demo" width="600">
+  <img id="demo-gif" alt="FizzyHydra Demo" width="600">
 </p>
+
+<script>
+  // Randomly select and display one of the demo GIFs
+  const gifs = ['fizzyhydra-demo.gif', 'fizzyhydra-demo2.gif'];
+  const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+  document.getElementById('demo-gif').src = randomGif;
+</script>
 
 <p align="center">
 
