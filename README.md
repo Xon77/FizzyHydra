@@ -265,7 +265,7 @@ Replace with your actual path.
 
 ### 🚀 Load Fizzy Hydra
 
-In Pulsar with Hydra active, evaluate this **[`loadScript()` line](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js#L10)**:
+In Pulsar with Hydra active, evaluate this [**`loadScript()` line**](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraControlMain.js#L10):
 
 ```javascript
 loadScript('/your/path/to/FizzyHydra/FizzyX/FHydraLoader.js');
