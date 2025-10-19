@@ -149,7 +149,8 @@ Create a `Hydra-Lib` folder inside your FizzyHydra directory and download the fo
   - Repository: https://github.com/ymaltsman/Hydra-FCS
   - Place in: `FizzyHydra/Hydra-Lib/Hydra-FCS/HydraFCS.js`
 
-**Expected Directory Structure:**
+<details>
+<summary><strong>📁 Expected Directory Structure</strong> (click to expand)</summary>
 
 ```
 FizzyHydra/
@@ -224,6 +225,8 @@ FizzyHydra/
     ├── HydraRegressionTests.js
     └── HydraAdvancedTests.js
 ```
+
+</details>
 
 **Note**: Some extensions are disabled by default in the loader due to conflicts:
 - **screamer.hydra** - Disabled due to await syntax issues
