@@ -263,9 +263,9 @@ Replace with your actual path.
 
 ---
 
-### 🚀 Load FizzyHydra
+### 🚀 Load Fizzy Hydra
 
-In Pulsar/Atom with Hydra active, evaluate this line:
+In Pulsar with Hydra active, evaluate this line with **[FHydraLoader.js](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraLoader.js)**:
 
 ```javascript
 loadScript('/your/path/to/FizzyHydra/FizzyX/FHydraLoader.js');
