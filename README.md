@@ -7,7 +7,7 @@
 
 <div align="center">
 
-| [**Overview**](#overview) | [**Installation**](#installation) | [**Setup**](#setup) | [**References**](#references) | [**Contribute**](#contribute) | [**Acknowledgements**](#acknowledgements) | [**Licence**](#licence) |
+| [**Overview**](#-overview) | [**Installation**](#-installation) | [**Setup**](#-setup) | [**Contribute**](#-contribute) | [**Acknowledgements**](#-acknowledgements) | [**Licence**](#-licence) |
 
 </div>
 
