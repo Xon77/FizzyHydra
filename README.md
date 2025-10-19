@@ -4,7 +4,11 @@
   <img src="fizzyhydra-demo.gif" alt="FizzyHydra Demo" width="600">
 </p>
 
+<p align="center">
+
 | [**Overview**](#overview) | [**Installation**](#installation) | [**Setup**](#setup) | [**References**](#references) | [**Contribute**](#contribute) | [**Acknowledgements**](#acknowledgements) | [**Licence**](#licence) |
+
+</p>
 
 ## Overview
 
