@@ -137,7 +137,7 @@ Create a `Hydra-Lib` folder inside your FizzyHydra directory and download the fo
     - `hydra-glsl.js`
 
 - **rings.js** - Ring generation functions
-  - Repository: https://github.com/geikha/hyper-hydra (included in hyper-hydra)
+  - Repository: https://github.com/ncavazos/rings
   - Place in: `FizzyHydra/Hydra-Lib/rings.js`
 
 - **NodeGL** - Node-based GLSL functions
