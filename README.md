@@ -49,7 +49,7 @@ The system operates in multiple modes:
 
 ---
 
-### 🧮 Advanced Algorithms
+### 🧮 Algorithms
 
 Beyond sequential, shuffled, ping-pong, or custom sequence playback, brownian or random walks, the system includes **8 sequencing algorithms**:
 
