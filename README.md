@@ -19,9 +19,9 @@
 
 **A sequencer &amp; controlling system for visual livecoding with [Hydra](https://hydra.ojack.xyz/) in the text editor [Pulsar](https://pulsar-edit.dev/).**
 
-FizzyHydra is a live coding visual performance system built on top of [Hydra](https://hydra.ojack.xyz/), designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
+Fizzy Hydra is a live coding visual performance system built on top of [Hydra](https://hydra.ojack.xyz/), designed for real-time audiovisual performances. It transforms Hydra from a live coding environment into a visual sequencer that can be played manually, controlled via OSC patterns, or left to generate evolving visuals through algorithms.
 
-This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/Xon77/Live4Bubbles) (Extensions based on [Tidal Cycles](https://tidalcycles.org/) and [SuperCollider](https://supercollider.github.io/)), but can be used independently as a standalone visual sequencing system.
+This project was originally designed to be used in conjunction with [Live 4 Bubbles](https://github.com/Xon77/Live4Bubbles) (Extensions based on [Tidal Cycles](https://tidalcycles.org/) and [SuperCollider](https://supercollider.github.io/)), but can also be used independently as a standalone visual sequencing system.
 
 ---
 
@@ -256,7 +256,7 @@ window.FIZZY_HYDRA_PATH = '/your/path/to/FizzyHydra/FizzyX';
 ```
 
 **Option 3: Edit the default fallback**
-Open `FizzyX/FHydraLoader.js` and modify line 46:
+Open [**`FizzyX/FHydraLoader.js` line 46**](https://github.com/Xon77/FizzyHydra/blob/main/FizzyX/FHydraLoader.js#L46):
 
 ```javascript
 // Default fallback for local file system
