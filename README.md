@@ -518,6 +518,8 @@ You can also support thanks to donations via [**Ko-fi**](https://ko-fi.com/live4
 
 The code of this project was built partly with the help of AI, particularly [Claude Code](https://github.com/anthropics/claude-code), although I tried others like [ChatGPT](https://chatgpt.com/) or even open source or free ones like [Ollama](https://ollama.com/). AI was not used in the design of the controlling system.
 
+For more details, see [**Notes on AI Usage**](https://github.com/Xon77/Live4Bubbles/wiki/AI-Notes) on the Live 4 Bubbles wiki.
+
 ---
 
 # 📄 Licence
